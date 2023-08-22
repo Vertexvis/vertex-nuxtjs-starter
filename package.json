@@ -22,7 +22,8 @@
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-vue": "^9.17.0",
     "nuxt": "^3.6.5",
-    "prettier": "^3.0.2"
+    "prettier": "^3.0.2",
+    "typescript": "^5.1.6"
   },
   "dependencies": {
     "@vertexvis/api-client-node": "^0.21.3",

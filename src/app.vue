@@ -2,10 +2,8 @@
 import '@vertexvis/viewer/dist/viewer/viewer.css';
 
 useHead({
-  link: [
-    { rel: 'icon', href: '/favicon-512x512.png' }
-  ]
-})
+  link: [{ rel: 'icon', href: '/favicon-512x512.png' }],
+});
 </script>
 
 <template>

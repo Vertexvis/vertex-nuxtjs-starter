@@ -5,7 +5,7 @@ import { toPartialSdkConfig } from '../../lib/client/config';
 
 const sceneTree = ref<HTMLVertexSceneTreeElement | null>(null);
 
-const { data: configResponse } = await useFetch('/api/config');
+const { data: configResponse } = await useFetch('/api/network-config');
 
 onMounted(() => {
   if (sceneTree.value != null && configResponse.value != null) {

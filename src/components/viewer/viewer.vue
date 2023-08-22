@@ -7,7 +7,7 @@ import { viewerRef } from '../../lib/client/viewer/refs';
 
 const viewer = ref<HTMLVertexViewerElement | null>(null);
 
-const { data: configResponse } = await useFetch('/api/config');
+const { data: configResponse } = await useFetch('/api/network-config');
 const { data: streamKeyResponse } = await useFetch('/api/stream-key');
 
 onMounted(async () => {

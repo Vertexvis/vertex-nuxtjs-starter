@@ -10,7 +10,7 @@ export default defineEventHandler(async () => {
   const client = await getClient();
   const config = getConfiguration();
 
-  if (config.resource?.sceneId != null) {
+  if (client != null && config.resource?.sceneId != null) {
     const req: CreateStreamKeyRequest = {
       data: {
         type: 'stream-key',
