@@ -14,7 +14,9 @@ export default defineNuxtConfig({
       exclude: ['@vertexvis/viewer-vue'],
     },
   },
-  $development: {
-    devtools: { enabled: true },
+  vue: {
+    compilerOptions: {
+      isCustomElement: (tag) => tag.includes('vertex-'),
+    },
   },
 });
