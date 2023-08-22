@@ -24,3 +24,4 @@ src/
   server/     // NuxtJS server functionality
     api/      // API endpoints served by NuxtJS
 ```
+
