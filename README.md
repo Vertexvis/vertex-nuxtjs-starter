@@ -42,14 +42,14 @@ being pointed to an custom cloud environment by configuring the following values
 file created in [Custom Scene Configuration](#custom-scene-configuration) (this configuration
 is required for this step):
 
-1. `VERTEX_API_HOST` in `.env.local` should be updated to point to the alternate hosting of the `vertex-api`
-  1. This defaults to ``
-1. `VERTEX_RENDERING_HOST` in `.env.local` should be updated to point to the alternate hosting of the `frame-streaming-service`
-  1. This defaults to ``
-1. `VERTEX_SCENE_TREE_HOST` in `.env.local` should be updated to point to the alternate hosting of the `scene-tree-service`
-  1. This defaults to ``
-1. `VERTEX_SCENE_VIEW_HOST` in `.env.local` should be updated to point to the alternate hosting of the `scene-service`
-  1. This defaults to ``
+- `VERTEX_API_HOST` in `.env.local` should be updated to point to the alternate hosting of the `vertex-api`
+  - This defaults to `https://platform.platprod.vertexvis.io`
+- `VERTEX_RENDERING_HOST` in `.env.local` should be updated to point to the alternate hosting of the `frame-streaming-service`
+  - This defaults to `wss://stream.platprod.vertexvis.io`
+- `VERTEX_SCENE_TREE_HOST` in `.env.local` should be updated to point to the alternate hosting of the `scene-tree-service`
+  - This defaults to `https://scene-trees.platprod.vertexvis.io`
+- `VERTEX_SCENE_VIEW_HOST` in `.env.local` should be updated to point to the alternate hosting of the `scene-service`
+  - This defaults to `https://scenes.platprod.vertexvis.io`
 
 Once these values are configured, the application will make requests for generating Stream Keys, rendering, and viewing
 of the Scene Tree using the provided URLs. For the initial functionality of this starter, the `VERTEX_SCENE_VIEW_HOST`
