@@ -26,7 +26,7 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
-    "@vertexvis/api-client-node": "^0.21.3",
+    "@vertexvis/api-client-node": "^0.22.0",
     "@vertexvis/utils": "^0.18.1",
     "@vertexvis/viewer-vue": "^0.18.1",
     "vue": "^3.3.4"
