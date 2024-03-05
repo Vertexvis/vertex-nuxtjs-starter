@@ -4,7 +4,7 @@ import { getClient } from '../../lib/server/client';
 import { getConfiguration } from '../../lib/server/config';
 
 const defaultStreamKey =
-  'urn:vertex:stream-key:hfmI8VBsIiMmO7THqdZdWO5Fhjqp_VDaee9e';
+  'urn:vertex:stream-key:AH7v0jg5aN5_thkhU-XTzB_29aqW89EjyOH8';
 
 export default defineEventHandler(async () => {
   const client = await getClient();
