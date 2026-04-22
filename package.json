@@ -26,9 +26,9 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
-    "@vertexvis/api-client-node": "^0.22.0",
-    "@vertexvis/utils": "^0.18.1",
-    "@vertexvis/viewer-vue": "^0.18.1",
-    "vue": "^3.3.4"
-  }
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "packageManager": "yarn@4.14.1"
 }
