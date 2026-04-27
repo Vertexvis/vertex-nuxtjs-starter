@@ -4,7 +4,8 @@ COPY . /build
 
 WORKDIR /build
 
-RUN yarn install && \
+RUN corepack enable && \
+  yarn install && \
   yarn build
 
 FROM node:22-alpine AS app
