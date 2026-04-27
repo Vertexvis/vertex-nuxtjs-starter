@@ -1,7 +1,7 @@
-import { DeepPartial } from '@vertexvis/utils';
-import { Config as SdkConfig } from '@vertexvis/viewer';
+import type { DeepPartial } from '@vertexvis/utils';
+import type { Config as SdkConfig } from '@vertexvis/viewer';
 
-import { NetworkConfig } from '../shared/config';
+import type { NetworkConfig } from '../shared/config';
 
 export function toPartialSdkConfig(
   network: NetworkConfig
