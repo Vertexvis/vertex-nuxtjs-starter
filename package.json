@@ -25,8 +25,8 @@
   },
   "dependencies": {
     "@vertexvis/api-client-node": "^0.42.0",
-    "@vertexvis/utils": "^1.0.0-testing.2",
-    "@vertexvis/viewer-vue": "^1.0.0-testing.2",
+    "@vertexvis/utils": "^1.0.0-testing.4",
+    "@vertexvis/viewer-vue": "^1.0.0-testing.4",
     "tslib": "^2.8.1",
     "vue": "^3.5.33"
   },
