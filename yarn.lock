@@ -2577,23 +2577,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vertexvis/geometry@npm:1.0.0-testing.4":
-  version: 1.0.0-testing.4
-  resolution: "@vertexvis/geometry@npm:1.0.0-testing.4"
+"@vertexvis/geometry@npm:1.0.0-testing.6":
+  version: 1.0.0-testing.6
+  resolution: "@vertexvis/geometry@npm:1.0.0-testing.6"
   peerDependencies:
     tslib: ">=2.4.0"
-  checksum: 10c0/51cb6111e964bcb1871f454af94029bfb5022b7ee8a27220d39c27ec124cd78f32eb6058b6602ab71165888664b5bc299c21040e082001822c9c1ea16588056c
+  checksum: 10c0/ca189411c8399cca52a847660c453a94a82bd3efe4c88b179d94494040538b4db1b21a53671e8ac46e626cd8e2dfb5536e845f63857a9acd15e9a0e1b1bf1c69
   languageName: node
   linkType: hard
 
-"@vertexvis/html-templates@npm:1.0.0-testing.4":
-  version: 1.0.0-testing.4
-  resolution: "@vertexvis/html-templates@npm:1.0.0-testing.4"
+"@vertexvis/html-templates@npm:1.0.0-testing.6":
+  version: 1.0.0-testing.6
+  resolution: "@vertexvis/html-templates@npm:1.0.0-testing.6"
   dependencies:
-    "@vertexvis/utils": "npm:1.0.0-testing.4"
+    "@vertexvis/utils": "npm:1.0.0-testing.6"
   peerDependencies:
     tslib: ">=2.4.0"
-  checksum: 10c0/74bb46a692a6ff9d2785f95230a133808dcd3d3c9ec151fb63776a779ba1c1a523bd69d3ee7c4a395a8506c92cac0951da3242c895a3492643d7073790931e45
+  checksum: 10c0/e089c0b38ac37fcbdd8bceb89483a459a1865a96578e19ec497ac5529079fd6b82d732dad1151fa554f46b1faf1f2ac07d089c9129a5861a31c95fbdecb20431
   languageName: node
   linkType: hard
 
@@ -2617,9 +2617,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vertexvis/stream-api@npm:1.0.0-testing.4":
-  version: 1.0.0-testing.4
-  resolution: "@vertexvis/stream-api@npm:1.0.0-testing.4"
+"@vertexvis/stream-api@npm:1.0.0-testing.6":
+  version: 1.0.0-testing.6
+  resolution: "@vertexvis/stream-api@npm:1.0.0-testing.6"
   dependencies:
     "@vertexvis/frame-streaming-protos": "npm:^0.17.0"
     long: "npm:^5.3.1"
@@ -2627,48 +2627,48 @@ __metadata:
     "@vertexvis/utils": ">=0.23.0"
     protobufjs: ">=6.9.0 <8.0.0"
     tslib: ">=2.4.0"
-  checksum: 10c0/0c39fbe91fe826c09130ae3297dab7ae2f720e0f1775b653832a60af57ca3c1c8babcf677b2bd709bc6791d6871a2c370c40ecaa8002b2dd65ef9eb50370c7f8
+  checksum: 10c0/d9404618cee7797e9c5faa37d1ad305711a8ec609d8dea8a80c089a4e308878e4cb4905620d0b2274e69cb51159fb45e22733bcc2880ba2b966ec1e860d661da
   languageName: node
   linkType: hard
 
-"@vertexvis/utils@npm:1.0.0-testing.4, @vertexvis/utils@npm:^1.0.0-testing.4":
-  version: 1.0.0-testing.4
-  resolution: "@vertexvis/utils@npm:1.0.0-testing.4"
+"@vertexvis/utils@npm:1.0.0-testing.6, @vertexvis/utils@npm:^1.0.0-testing.6":
+  version: 1.0.0-testing.6
+  resolution: "@vertexvis/utils@npm:1.0.0-testing.6"
   dependencies:
     fast-deep-equal: "npm:^3.1.3"
     is-plain-object: "npm:^3.0.0"
     uuid: "npm:^8.3.2"
   peerDependencies:
     tslib: ">=2.4.0"
-  checksum: 10c0/0748e874edccd8753ed4f18f42015c7dc0fac956a3c12b7865c75bf4373cb6fa87c450982cafa2cfc123a280ac065cfad469e8e870da7a928d0c77812d049f36
+  checksum: 10c0/c2ff617ad341641348065e1cdc63cae98d926ef6c3dd8858276cfd47864afaeebe055c483e5b52f69d3fca8ebf1f3f1995ba401e538160a88debd3cccda64928
   languageName: node
   linkType: hard
 
-"@vertexvis/viewer-vue@npm:^1.0.0-testing.4":
-  version: 1.0.0-testing.4
-  resolution: "@vertexvis/viewer-vue@npm:1.0.0-testing.4"
+"@vertexvis/viewer-vue@npm:^1.0.0-testing.6":
+  version: 1.0.0-testing.6
+  resolution: "@vertexvis/viewer-vue@npm:1.0.0-testing.6"
   dependencies:
     "@stencil/vue-output-target": "npm:^0.13.1"
-    "@vertexvis/viewer": "npm:1.0.0-testing.4"
+    "@vertexvis/viewer": "npm:1.0.0-testing.6"
   peerDependencies:
     tslib: ">=2.4.0"
-  checksum: 10c0/5f4cfda3c556e86459d695c87678b3e2bb69cc94741ba600222e6f891e1de415bd00f4c8190201d169432a8f4019e2f315feb1c6c49a2b432f65b8690811dcf3
+  checksum: 10c0/5f507fe0e5110749b1d2414151ae6266732c83287ccb04dc25704760da8f05c90157fe60b7ae87625f3cbcdb0ec87856bf1698a9ab78709d355d1c7d787f7e1c
   languageName: node
   linkType: hard
 
-"@vertexvis/viewer@npm:1.0.0-testing.4":
-  version: 1.0.0-testing.4
-  resolution: "@vertexvis/viewer@npm:1.0.0-testing.4"
+"@vertexvis/viewer@npm:1.0.0-testing.6":
+  version: 1.0.0-testing.6
+  resolution: "@vertexvis/viewer@npm:1.0.0-testing.6"
   dependencies:
     "@improbable-eng/grpc-web": "npm:^0.15.0"
     "@stencil/core": "npm:^4.0.0"
     "@vertexvis/frame-streaming-protos": "npm:^0.17.0"
-    "@vertexvis/geometry": "npm:1.0.0-testing.4"
-    "@vertexvis/html-templates": "npm:1.0.0-testing.4"
+    "@vertexvis/geometry": "npm:1.0.0-testing.6"
+    "@vertexvis/html-templates": "npm:1.0.0-testing.6"
     "@vertexvis/scene-tree-protos": "npm:^0.1.26"
     "@vertexvis/scene-view-protos": "npm:^0.8.1"
-    "@vertexvis/stream-api": "npm:1.0.0-testing.4"
-    "@vertexvis/utils": "npm:1.0.0-testing.4"
+    "@vertexvis/stream-api": "npm:1.0.0-testing.6"
+    "@vertexvis/utils": "npm:1.0.0-testing.6"
     "@vertexvis/web-workers": "npm:^0.1.0"
     camel-case: "npm:^4.1.2"
     classnames: "npm:^2.3.1"
@@ -2685,7 +2685,7 @@ __metadata:
     resize-observer: "npm:^1.0.4"
     threads: "npm:^1.7.0"
     tslib: "npm:^2.4.0"
-  checksum: 10c0/9dbfa5d3ef8a516baa0e636023fdf39ccd45d395557f828d4db1a5da55dbc50e058b98706e8845e2abaa3af71f866b11b0e9fe46bec7a6265090bc18347b5e79
+  checksum: 10c0/a40b1c932c530bfe2a64ad9948e03f63a2fb985ab6ac22bc722f7894151e40c8ee4c0819341d8a95d673b099744e4e92b9b3b9913761c5c2b115802511422b2e
   languageName: node
   linkType: hard
 
@@ -9122,8 +9122,8 @@ __metadata:
   dependencies:
     "@types/node": "npm:^18.19.130"
     "@vertexvis/api-client-node": "npm:^0.42.0"
-    "@vertexvis/utils": "npm:^1.0.0-testing.4"
-    "@vertexvis/viewer-vue": "npm:^1.0.0-testing.4"
+    "@vertexvis/utils": "npm:^1.0.0-testing.6"
+    "@vertexvis/viewer-vue": "npm:^1.0.0-testing.6"
     "@vue/eslint-config-typescript": "npm:^11.0.3"
     eslint: "npm:^8.57.1"
     eslint-config-prettier: "npm:^9.1.2"
