@@ -1,6 +1,6 @@
 {
   "name": "vertex-nuxtjs-starter",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "private": true,
   "scripts": {
     "build": "nuxt build",
@@ -25,8 +25,8 @@
   },
   "dependencies": {
     "@vertexvis/api-client-node": "^0.42.0",
-    "@vertexvis/utils": "^1.0.0-testing.6",
-    "@vertexvis/viewer-vue": "^1.0.0-testing.6",
+    "@vertexvis/utils": "^1.0.0-testing.8",
+    "@vertexvis/viewer-vue": "^1.0.0-testing.8",
     "tslib": "^2.8.1",
     "vue": "^3.5.33"
   },
