@@ -1,6 +1,6 @@
 {
   "name": "vertex-nuxtjs-starter",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "private": true,
   "scripts": {
     "build": "nuxt build",
@@ -12,26 +12,26 @@
     "format": "yarn lint --fix"
   },
   "devDependencies": {
-    "@types/node": "^18.19.130",
+    "@types/node": "^22.19.19",
     "@vue/eslint-config-typescript": "^11.0.3",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^9.1.2",
-    "eslint-plugin-prettier": "^5.5.5",
+    "eslint-plugin-prettier": "^5.5.6",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-vue": "^9.33.0",
-    "nuxt": "^3.21.2",
+    "nuxt": "^3.21.6",
     "prettier": "^3.8.3",
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "@vertexvis/api-client-node": "^0.42.0",
-    "@vertexvis/utils": "^0.24.4",
-    "@vertexvis/viewer-vue": "^0.24.4",
+    "@vertexvis/api-client-node": "^0.42.1",
+    "@vertexvis/utils": "^1.0.0",
+    "@vertexvis/viewer-vue": "^1.0.0",
     "tslib": "^2.8.1",
-    "vue": "^3.5.33"
+    "vue": "^3.5.35"
   },
   "engines": {
-    "node": ">=22.0.0"
+    "node": ">=22.22.2"
   },
   "packageManager": "yarn@4.14.1"
 }
